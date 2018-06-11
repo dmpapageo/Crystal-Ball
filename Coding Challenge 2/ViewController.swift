@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         newCrystalMessage()
     }
     
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        newCrystalMessage()
+    }
+    
     func newCrystalMessage(){
         
         randomMessageIndex = Int(arc4random_uniform(6)) //random
