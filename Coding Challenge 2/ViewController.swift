@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     func newCrystalMessage(){
         
-        randomMessageIndex = Int(arc4random_uniform(6)) //random
+        randomMessageIndex = Int(arc4random_uniform(6)) 
         
         CrystalMessage.text = String(randomCrystalMessage[randomMessageIndex])
 
